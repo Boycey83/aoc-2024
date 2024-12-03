@@ -30,6 +30,7 @@ return;
 static IDay GetSolver(int day) => day switch
 {
     1 => new Day01(),
+    2 => new Day02(),
     _ => throw new ArgumentException($"Day {day} not implemented")
 };
 
