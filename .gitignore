@@ -1,0 +1,17 @@
+﻿## .NET Core
+bin/
+obj/
+
+## Rider
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+## VS Code (just in case)
+.vscode/
+
+## User-specific files
+*.suo
+*.user
+*.userosscache
+*.dbmdl
