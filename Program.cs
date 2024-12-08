@@ -1,6 +1,6 @@
 ﻿using AoC;
 
-const int defaultDay = 4;
+const int defaultDay = 5;
 var day = args.Length > 0 && int.TryParse(args[0], out var d) ? d : defaultDay;
 var sw = System.Diagnostics.Stopwatch.StartNew();
 
@@ -33,6 +33,7 @@ static IDay GetSolver(int day) => day switch
     2 => new Day02(),
     3 => new Day03(),
     4 => new Day04(),
+    5 => new Day05(),
     _ => throw new ArgumentException($"Day {day} not implemented")
 };
 
